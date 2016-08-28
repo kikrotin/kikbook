@@ -1,5 +1,5 @@
 class StatusesController < ApplicationController
-  layout false
+  layout nil
   before_action :set_status, only: [:show, :edit, :update, :destroy]
 
   # GET /statuses
